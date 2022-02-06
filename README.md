@@ -83,13 +83,13 @@ To confirm the data was imported properly, use the head and/or tail function to 
 In this section, you will analyze the trends in housing units, average sale price per square foot and gross rents. To do this, group the dataframe by 'year' and aggregate by the mean, then using hvplot and geoviews complete the following:
 
 (1) Calculate and plot housing units per year
-![JupyterLab notebook housing units bar chart](Images/zoomed-housing-units-by-year.PNG)
+![JupyterLab notebook housing units bar chart](Images/zoomed-housing-units-by-year.png)
 
 (2) Calculate and plot sale price per square foot and gross rent in San Francisco
-![JupyterLab notebook avg sale price and gross rent](Images/avg-sale-px-sq-foot-gross-rent.PNG)
+![JupyterLab notebook avg sale price and gross rent](Images/avg-sale-px-sq-foot-gross-rent.png)
 
 (3) Compare average sale price per square foot and gross rent by neighborhood using the `groupby` function
-![JupyterLab notebook avg sale price and gross rent](Images/pricing-info-by-neighborhood.PNG)
+![JupyterLab notebook avg sale price and gross rent](Images/pricing-info-by-neighborhood.png)
 
 (4) Build an interactive neighborhood map. For this step, use the following parameters:
 ```python
@@ -106,7 +106,7 @@ all_neighborhoods_df.hvplot.points(
     title="Average Gross Rent and Sale Price Per Square Foot In San Francisco By Neighborhood"
 )
 ```
-![JupyterLab notebook geoviews plot](Images/6-4-geoviews-plot.PNG)
+![JupyterLab notebook geoviews plot](Images/6-4-geoviews-plot.png)
 
 
 ### **Step 3: Buy and Rent One-click Analysis**
