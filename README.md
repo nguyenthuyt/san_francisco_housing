@@ -129,7 +129,7 @@ conda deactivate
 
 ## Contributors
 
-The whale fund analysis was created as part of the Rice Fintech Bootcamp 2022 Program by:
+This project was created as part of the Rice Fintech Bootcamp 2022 Program by:
 
 Thuy Nguyen
 
